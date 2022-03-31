@@ -8,6 +8,7 @@ public class Patient extends User{
 
     Patient (String name, String email) {
         super(name, email);
+        //mas instrucciones
     }
 
     public void setWeight (double weight) {
@@ -41,5 +42,14 @@ public class Patient extends User{
 
     public void setBlood(String blood) {
         this.blood = blood;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() +
+                "\nbirthday: " + birthday +
+                ", weight: " + getWeight() +
+                ", height: " + getHeight() +
+                ", blood: " + blood;
     }
 }

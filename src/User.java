@@ -52,6 +52,11 @@ public class User {
         }
         else if (phoneNumber.length() == 9) {
             this.phoneNumber = phoneNumber;}
+    }
 
+    @Override
+    public String toString() {
+        return "User: " + name + ", Email: " +email+
+                "\nAddress: "+address+". Phone: "+phoneNumber;
     }
 }

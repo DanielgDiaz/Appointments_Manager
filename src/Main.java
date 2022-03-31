@@ -16,13 +16,13 @@ public class Main {
             System.out.println(availableAppointment.getDate() + " " + availableAppointment.getTime());
         }
 
+        System.out.println();
+        System.out.println();
+        Patient patient = new Patient ("Dani", "dani@mail.com");
 
-       /* Patient patient = new Patient("Rigoberto", "rigo@email.com");
-        patient.setWeight(80.5);
-        System.out.println(patient.getWeight());
 
-        patient.setPhoneNumber("664109778");
-        System.out.println(patient.getPhoneNumber());*/
+        System.out.println(patient);
+
 
 
     }
