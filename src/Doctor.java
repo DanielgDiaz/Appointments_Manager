@@ -30,7 +30,7 @@ public class Doctor extends User {
 
     @Override
     public String toString() {
-        return super.toString() + "\nSpeciality: " +speciality+ "\nAvailable";
+        return super.toString() + "\nSpeciality: " +speciality+ "\nAvailable: " + availableAppointments.toString();
     }
 
     public static class AvailableAppointment{
